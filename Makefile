@@ -14,7 +14,7 @@ SOURCES	= srcs/NAMEOFOURFILES
 OBJECTS	= ${SOURCES:.c=.o}
 INCLUDES	= FILES
 NAME	= rush02
-CC	= gcc
+CC	= cc
 RM	= rm -f
 CFLAGS	= -Wall -Wextra -Werror
 
