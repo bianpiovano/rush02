@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 SOURCES	= srcs/NAMEOFOURFILES
-OBJECTS	= ${SRCS:.c=.o}
+OBJECTS	= ${SOURCES:.c=.o}
 INCLUDES	= FILES
 NAME	= rush02
 CC	= gcc
